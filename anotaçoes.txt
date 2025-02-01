@@ -1,0 +1,41 @@
+Só estou usando o "teste_geral" e "treinamento", o "ma_automation" e o "teste" era pro IQ_option
+
+Pasta teste_geral:
+
+Pares usados que não aparecem no artigo:
+NZDUSD
+BTCUSD
+XRPUSD
+ETHUSD
+
+Novo CSV de histdata.com:
+Seu header seria: DateTime Stamp;Bar OPEN Bid Quote;Bar HIGH Bid Quote;Bar LOW Bid Quote;Bar CLOSE Bid Quote;Volume
+
+catalogador1 e para os primeiros datasets que usei da IQ_Option
+catalogador2 e para os datasets novos que estou usando agora, o atual ***
+
+gabarito_csv.py gera os gabritos das opções binárias que estão em gabritos
+timeframe_to_data.pý tem a função que transforma timeframe para data, mas isso era para a IQ_option
+teste.py é só para testes
+
+as pastas dos dados_historicos e dados_historicos_60 são os datasets que eu pagava da IQ_option, então, não serão mais usados
+
+os datasets usados atualmente estão em data_tests, porém, eles estão sendo reformulados e então estou usando a pasta dad_apr_maq e separando
+conforme for preciso os dados, separando sma, rsi, e etc. ***
+
+guardar_dados3 é para a IQ_Option
+guardar_dados2 gerá os csv de aprendizado de máquina de cada um dos métodos(sma, ...) e seus periodos. ***
+guardar_dados é para pergar os 24 datasets feitos antes e colocar nos 2 de 2021-2022 e de 2023, como pedido ***
+guardar_gabarito foi para juntar os gabaritos em 2021-2022 e 2023 como antes ***
+
+a pasta "consolidados" tem os 4 datasets mais importantes para o apresendizado de máquina que foi pedido para a semana do dia 01/02/2025
+sendo eles a junção dos sma, rsi, e datatime stamp, e o outro o gabarito dos dados***
+
+***: importante e atual
+importantes: catalogador_csv2.py; dad_apr_maq; guardar_dados2.py
+
+
+Pasta treinamento:
+
+Na pasta treinamento, tem um código que usa random forest e cross validation, fiz para dar uma treinada, mas ainda não baixei o scikit learning
+e nem o panda
